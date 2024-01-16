@@ -97,6 +97,7 @@
     .popular-tour {
         flex-direction: column;
         margin-left: 20px;
+        width: 335px;
     }
 
     .popular-tour-contents {
@@ -333,5 +334,6 @@
         height: 1px;
         background: rgba(19, 19, 24, 0.10);
     }
+
 
 }
