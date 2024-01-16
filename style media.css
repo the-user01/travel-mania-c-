@@ -1,0 +1,337 @@
+@media screen and (max-width:576px) {
+    * {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-header {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .logo h1 {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 28.724px;
+        height: 33.516px;
+    }
+
+    .heading-div ul {
+        display: none;
+    }
+
+    .heading-bar {
+        display: block;
+        margin-top: 15px;
+        margin-left: 120px;
+    }
+
+    .main-header-img img {
+        width: 335px;
+        height: 483px;
+    }
+
+    .main-header-img {
+        width: 335px;
+        height: 483px;
+    }
+
+    .main-header-contents h1 {
+        font-size: 22px;
+        margin-top: -15px;
+    }
+
+    .main-header-contents p {
+        width: 304px;
+        font-size: 14px;
+    }
+
+    .main-header-contents-input {
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        margin-top: -10px;
+    }
+
+    .main-header-contents-input input {
+        width: 255px;
+        height: 52px;
+    }
+
+    .main-header-contents-input button {
+        width: 255px;
+        height: 52px;
+        font-size: 16px;
+        margin-top: -10px;
+        padding-right: 75px;
+    }
+
+    .main-header-contents-input p {
+        right: 20px;
+        top: 10px;
+    }
+
+    .header-flex-div {
+        width: 289px;
+        margin-left: 12px;
+    }
+
+    .main-header-contents-input p {
+        position: relative;
+        right: 25px;
+        top: 15px;
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+
+    /* popular tour section */
+
+    .popular-tour {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .popular-tour-contents {
+        margin-left: 20px;
+        width: 335px;
+        flex-wrap: wrap;
+    }
+
+    .popular-tour-contents h1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .popular-tour-contents p,
+    ul {
+        font-size: 14px;
+    }
+
+    .popular-tour-contents button {
+        width: 174px;
+        height: 52px;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .popular-tour-img img {
+        width: 335px;
+        height: 342px;
+        margin-top: 30px;
+    }
+
+
+
+    /* Choose Destination */
+
+    .choose-destination {
+        width: 335px;
+    }
+
+    .choose-destination-images {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .choose-destination-images img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .choose-destination-images div {
+        height: 176px;
+    }
+
+    .choose-destination-images p {
+        position: relative;
+        bottom: 88px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .choose-destination-contents h1 {
+        font-size: 20px;
+    }
+
+    .choose-destination-contents p {
+        font-size: 14px;
+    }
+
+
+    /* Choose us style */
+
+    .choose-us {
+        width: 335px;
+    }
+
+    .choose-us-flex-div {
+        flex-direction: column;
+    }
+
+    .choose-us-flex-div div {
+        margin-top: 30px;
+    }
+
+    .choose-us-contents h4 {
+        font-size: 20px;
+    }
+
+    .choose-us-contents p {
+        font-size: 14px;
+    }
+
+
+
+    /* Newsletter section */
+
+
+    .newsletter-sec {
+        width: 335px;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .newsletter-sec-contents {
+        width: 305px;
+        height: 353px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding: 15px 15px 0 15px;
+    }
+
+    .newsletter-sec-contents h2 {
+        font-size: 20px;
+    }
+
+    .newsletter-sec-contents p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .newsletter-sec-img img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .newsletter-sec-contents input {
+        margin-bottom: 20px;
+        width: 288px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        border: none;
+        outline: none;
+    }
+
+    .newsletter-sec-contents input[type="text"],
+    input[type="email"] {
+        width: 288px;
+        height: 52px;
+        padding-left: 20px;
+    }
+
+
+    .newsletter-sec-img-tag {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        position: relative;
+        left: 43px;
+        bottom: 147px;
+    }
+
+    .newsletter-sec-img-tag h2 {
+        font-size: 21.138px;
+    }
+
+    .newsletter-sec-img-tag p {
+        font-size: 15.854px;
+    }
+
+
+    /* Footer section */
+
+
+    footer {
+        width: 98%px;
+        height: 309px;
+        margin: 0 auto;
+    }
+
+    .top-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-logo {
+        display: flex;
+        margin-top: 20px;
+
+    }
+
+    .footer-logo h1 {
+        font-size: 22px;
+        margin-left: -100px;
+    }
+
+    .footer-logo span {
+        color: var(--span-color);
+    }
+
+    .footer-logo img {
+        width: 29px;
+        height: 34px;
+        margin: 15px 0px 0 150px;
+    }
+
+    footer p {
+        margin-top: 20px;
+        color: #5A5A5D;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;/
+    }
+
+    .footer-images img {
+        width: 174.322px;
+        height: 24px;
+    }
+
+    footer hr {
+        width: 335px;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.10);
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .end-footer p {
+        color: #131318;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    hr {
+        width: 672px;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.10);
+    }
+
+}
