@@ -285,7 +285,7 @@
 
     .footer-logo h1 {
         font-size: 22px;
-        margin-left: -80px;
+        margin-left: -60px;
     }
 
     .footer-logo span {
@@ -295,7 +295,7 @@
     .footer-logo img {
         width: 29px;
         height: 34px;
-        margin: 15px 0px 0 150px;
+        margin: 15px 0px 0 130px;
     }
 
     footer p {
